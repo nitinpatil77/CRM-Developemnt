@@ -8,7 +8,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className='w-full flex justify-center items-center px-5 py-4'>
+    <div className='w-full flex justify-center items-center'>
       <div className='w-[15%]'>
         <Sidebar />
       </div>
