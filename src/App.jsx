@@ -8,13 +8,14 @@ import './App.css'
 function App() {
 
   return (
-    <div className='w-full flex justify-center items-center'>
+    <div className='w-full flex flex-row justify-center items-start'>
       <div className='w-[15%]'>
         <Sidebar />
       </div>
       <div className='w-[85%]'>
         <Header />
       </div>
+
     </div>
   )
 }
